@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+[[mods]]
+modId="netherstrikesback" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Nether Strikes Back" #mandatory
+authors="Ourten"
+description='''Mod with nether'''
+
+[[dependencies.netherstrikesback]]
+    modId="forge"
+    mandatory=true
+    versionRange="[${forge_version},)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.netherstrikesback]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4,1.15)"
+    ordering="NONE"
+    side="BOTH"
